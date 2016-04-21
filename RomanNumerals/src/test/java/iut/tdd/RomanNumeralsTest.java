@@ -63,7 +63,8 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-	/*
+	
+	@Test 	
 	public void should_return_IX_when_9 () {
 		//Given
 		String input = "9";
@@ -75,6 +76,7 @@ public class RomanNumeralsTest {
 		Assert.assertEquals(expected, actual);
 	}
 	
+	@Test 
 	public void should_return_XI_when_11 () {
 		//Given
 		String input = "11";
@@ -84,5 +86,5 @@ public class RomanNumeralsTest {
 		String actual = romanNumeral.convertToRoman(input);
 		//Then
 		Assert.assertEquals(expected, actual);
-	}*/
+	}
 }
