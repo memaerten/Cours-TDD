@@ -29,7 +29,7 @@ public class RomanNumeralsTest {
 		Assert.assertEquals(expected, actual);
 	}
 	
-	/*@Test
+	@Test
 	public void should_return_IV_when_4 () {
 		//Given
 		String input = "4";
@@ -40,7 +40,8 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-/*
+	
+	@Test
 	public void should_return_V_when_5 () {
 		//Given
 		String input = "5";
@@ -51,7 +52,7 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-	
+	@Test 
 	public void should_return_VII_when_7 () {
 		//Given
 		String input = "7";
@@ -62,7 +63,7 @@ public class RomanNumeralsTest {
 		//Then
 		Assert.assertEquals(expected, actual);
 	}
-	
+	/*
 	public void should_return_IX_when_9 () {
 		//Given
 		String input = "9";
